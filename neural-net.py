@@ -69,6 +69,14 @@ def cost_function(A, Y):
     
     return cost
 
+# Gradient descent  are used to update the values such that the cost function is minimized
+# Gradient values are calced for each neuron in the network and it represents the change in the final output
+# with respect to the change in the params of that specific neuron
+
+
+
+# One_layer_backward - runs the 
+
 def one_layer_backward(dA, cache):
     linear_cache, activation_cache = cache
     
