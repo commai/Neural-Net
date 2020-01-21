@@ -75,7 +75,10 @@ def cost_function(A, Y):
 
 
 
-# One_layer_backward - runs the 
+# One_layer_backward - runs the backpropagation step for one single layer. It calculates the gradient values for sigmoid units of 
+# one layer using the cache values we stored previously. In the activation cache we have stored the value of Z for that layer. 
+# Using this value we will calculate the dZ, which is the derivative of the cost function with respect to the linear output of 
+# the given neuron.
 
 def one_layer_backward(dA, cache):
     linear_cache, activation_cache = cache
